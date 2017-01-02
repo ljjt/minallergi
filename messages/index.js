@@ -22,8 +22,8 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'No match! Try changing the query terms!',
-                qnaThreshold: 0.3}
+                defaultMessage: 'Jag hittar inget som passar. Pröva något annat!',
+                qnaThreshold: 0.4}
 );
 
 
